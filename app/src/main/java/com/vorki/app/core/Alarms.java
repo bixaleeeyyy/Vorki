@@ -8,7 +8,7 @@ import android.content.Intent;
 
 import java.util.Calendar;
 
-/** Inexact alarms (no special permission needed) used to refresh widgets at the right time. */
+/** Inexact  alarms (no special permission needed) used to refresh widgets at the right time. */
 public final class Alarms {
 
     private Alarms() {
