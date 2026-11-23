@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clk_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_bg"
+        android:clipToOutline="true"
+        android:importantForAccessibility="no"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+    <LinearLayout
+        android:id="@+id/pos_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone">
+    <TextClock
+        android:id="@+id/tc_time_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:format12Hour="h:mm"
+        android:format24Hour="HH:mm"
+        android:includeFontPadding="false"
+        android:textColor="#12142B"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+    <TextClock
+        android:id="@+id/tc_date_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:format12Hour="EEEE, d MMM"
+        android:format24Hour="EEEE, d MMM"
+        android:includeFontPadding="false"
+        android:textColor="#12142B"
+        android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pos_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="visible">
+    <TextClock
+        android:id="@+id/tc_time_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:format12Hour="h:mm"
+        android:format24Hour="HH:mm"
+        android:includeFontPadding="false"
+        android:textColor="#12142B"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+    <TextClock
+        android:id="@+id/tc_date_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:format12Hour="EEEE, d MMM"
+        android:format24Hour="EEEE, d MMM"
+        android:includeFontPadding="false"
+        android:textColor="#12142B"
+        android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pos_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone">
+    <TextClock
+        android:id="@+id/tc_time_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:format12Hour="h:mm"
+        android:format24Hour="HH:mm"
+        android:includeFontPadding="false"
+        android:textColor="#12142B"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+    <TextClock
+        android:id="@+id/tc_date_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:format12Hour="EEEE, d MMM"
+        android:format24Hour="EEEE, d MMM"
+        android:includeFontPadding="false"
+        android:textColor="#12142B"
+        android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pos_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:visibility="gone">
+    <TextClock
+        android:id="@+id/tc_time_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:format12Hour="h:mm"
+        android:format24Hour="HH:mm"
+        android:includeFontPadding="false"
+        android:textColor="#12142B"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+    <TextClock
+        android:id="@+id/tc_date_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:format12Hour="EEEE, d MMM"
+        android:format24Hour="EEEE, d MMM"
+        android:includeFontPadding="false"
+        android:textColor="#12142B"
+        android:textSize="15sp" />
+    </LinearLayout>
+</FrameLayout>

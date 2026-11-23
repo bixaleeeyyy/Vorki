@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cd_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_bg"
+        android:clipToOutline="true"
+        android:importantForAccessibility="no"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp">
+        <TextView
+            android:id="@+id/cd_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="Countdown"
+            android:textColor="#5B6285"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1" />
+        <TextView
+            android:id="@+id/cd_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="12"
+            android:textColor="#12142B"
+            android:textSize="56sp"
+            android:textStyle="bold"
+            android:maxLines="1" />
+        <LinearLayout
+            android:id="@+id/cd_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/seg0"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg1"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg2"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg3"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg4"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg5"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg6"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg7"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg8"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg9"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg10"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg11"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg12"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg13"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg14"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg15"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg16"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg17"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg18"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+            <ImageView
+                android:id="@+id/seg19"
+                android:importantForAccessibility="no"
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/cd_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="days left"
+            android:textColor="#12142B"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            android:maxLines="1" />
+        <TextView
+            android:id="@+id/cd_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="14 Nov 2026"
+            android:textColor="#5B6285"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:maxLines="1" />
+    </LinearLayout>
+</FrameLayout>

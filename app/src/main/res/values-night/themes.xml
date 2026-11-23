@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Vorki" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">?attr/vkPrimary</item>
+        <item name="colorOnPrimary">?attr/vkOnPrimary</item>
+        <item name="colorSecondary">?attr/vkPrimary</item>
+        <item name="colorSurface">?attr/vkSurface</item>
+        <item name="colorOnSurface">?attr/vkInk</item>
+        <item name="colorSurfaceVariant">?attr/vkSurfaceVar</item>
+        <item name="colorOnSurfaceVariant">?attr/vkInkMuted</item>
+        <item name="colorOutline">?attr/vkStroke</item>
+        <item name="colorOutlineVariant">?attr/vkStroke</item>
+        <item name="colorSecondaryContainer">?attr/vkSurfaceVar</item>
+        <item name="colorOnSecondaryContainer">?attr/vkInk</item>
+        <item name="colorSurfaceContainerLowest">?attr/vkSurface</item>
+        <item name="colorSurfaceContainerLow">?attr/vkSurface</item>
+        <item name="colorSurfaceContainer">?attr/vkSurface</item>
+        <item name="colorSurfaceContainerHigh">?attr/vkSurface</item>
+        <item name="colorSurfaceContainerHighest">?attr/vkSurfaceVar</item>
+        <item name="android:windowBackground">?attr/vkBg</item>
+        <item name="android:colorBackground">?attr/vkBg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="Theme.Vorki.Aurora" parent="Theme.Vorki">
+        <item name="vkBg">#07131A</item>
+        <item name="vkBgTop">#0E2530</item>
+        <item name="vkSurface">#0F1F28</item>
+        <item name="vkSurfaceVar">#16303C</item>
+        <item name="vkStroke">#1E4251</item>
+        <item name="vkInk">#EAFBF7</item>
+        <item name="vkInkMuted">#8FB5B6</item>
+        <item name="vkPrimary">#3EE6C2</item>
+        <item name="vkOnPrimary">#04211B</item>
+        <item name="vkOnCard">#FFFFFF</item>
+        <item name="vkG1a">#14B8A6</item>
+        <item name="vkG1b">#22D3EE</item>
+        <item name="vkG2a">#8B5CF6</item>
+        <item name="vkG2b">#38BDF8</item>
+        <item name="vkG3a">#10B981</item>
+        <item name="vkG3b">#14B8A6</item>
+        <item name="vkG4a">#6366F1</item>
+        <item name="vkG4b">#8B5CF6</item>
+    </style>
+    <style name="Theme.Vorki.Sunset" parent="Theme.Vorki">
+        <item name="vkBg">#14100E</item>
+        <item name="vkBgTop">#2A1B16</item>
+        <item name="vkSurface">#1D1612</item>
+        <item name="vkSurfaceVar">#2A1E18</item>
+        <item name="vkStroke">#3D2B22</item>
+        <item name="vkInk">#FFF1E8</item>
+        <item name="vkInkMuted">#C2A090</item>
+        <item name="vkPrimary">#FF7A59</item>
+        <item name="vkOnPrimary">#2A0E05</item>
+        <item name="vkOnCard">#FFFFFF</item>
+        <item name="vkG1a">#FF7A59</item>
+        <item name="vkG1b">#FFB020</item>
+        <item name="vkG2a">#FF5C8A</item>
+        <item name="vkG2b">#FF7A59</item>
+        <item name="vkG3a">#F59E0B</item>
+        <item name="vkG3b">#EF4444</item>
+        <item name="vkG4a">#FB7185</item>
+        <item name="vkG4b">#F59E0B</item>
+    </style>
+    <style name="Theme.Vorki.Mono" parent="Theme.Vorki">
+        <item name="vkBg">#000000</item>
+        <item name="vkBgTop">#111111</item>
+        <item name="vkSurface">#0D0D0D</item>
+        <item name="vkSurfaceVar">#1A1A1A</item>
+        <item name="vkStroke">#2B2B2B</item>
+        <item name="vkInk">#FFFFFF</item>
+        <item name="vkInkMuted">#9A9A9A</item>
+        <item name="vkPrimary">#C6F135</item>
+        <item name="vkOnPrimary">#0A0F00</item>
+        <item name="vkOnCard">#0A0A0A</item>
+        <item name="vkG1a">#C6F135</item>
+        <item name="vkG1b">#9BE015</item>
+        <item name="vkG2a">#E5E5E5</item>
+        <item name="vkG2b">#BDBDBD</item>
+        <item name="vkG3a">#FFFFFF</item>
+        <item name="vkG3b">#D0D0D0</item>
+        <item name="vkG4a">#9BE015</item>
+        <item name="vkG4b">#5BC000</item>
+    </style>
+    <style name="Theme.Vorki.Ocean" parent="Theme.Vorki">
+        <item name="vkBg">#07101F</item>
+        <item name="vkBgTop">#0F2142</item>
+        <item name="vkSurface">#0D1B33</item>
+        <item name="vkSurfaceVar">#14294D</item>
+        <item name="vkStroke">#1F3A66</item>
+        <item name="vkInk">#EAF3FF</item>
+        <item name="vkInkMuted">#8DA9D1</item>
+        <item name="vkPrimary">#4DA3FF</item>
+        <item name="vkOnPrimary">#021528</item>
+        <item name="vkOnCard">#FFFFFF</item>
+        <item name="vkG1a">#2563EB</item>
+        <item name="vkG1b">#38BDF8</item>
+        <item name="vkG2a">#0EA5E9</item>
+        <item name="vkG2b">#22D3EE</item>
+        <item name="vkG3a">#4F46E5</item>
+        <item name="vkG3b">#38BDF8</item>
+        <item name="vkG4a">#1D4ED8</item>
+        <item name="vkG4b">#6366F1</item>
+    </style>
+    <style name="Theme.Vorki.Rose" parent="Theme.Vorki">
+        <item name="vkBg">#160B14</item>
+        <item name="vkBgTop">#2B1325</item>
+        <item name="vkSurface">#1F1019</item>
+        <item name="vkSurfaceVar">#2D1824</item>
+        <item name="vkStroke">#44263A</item>
+        <item name="vkInk">#FFEAF4</item>
+        <item name="vkInkMuted">#C59AB3</item>
+        <item name="vkPrimary">#FF5C9E</item>
+        <item name="vkOnPrimary">#2A0716</item>
+        <item name="vkOnCard">#FFFFFF</item>
+        <item name="vkG1a">#FF5C9E</item>
+        <item name="vkG1b">#FF8A5C</item>
+        <item name="vkG2a">#D946EF</item>
+        <item name="vkG2b">#FF5C9E</item>
+        <item name="vkG3a">#F43F5E</item>
+        <item name="vkG3b">#FB923C</item>
+        <item name="vkG4a">#A855F7</item>
+        <item name="vkG4b">#F472B6</item>
+    </style>
+</resources>

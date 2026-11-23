@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#0B0D17</color>
+    <color name="bgTop">#171A33</color>
+    <color name="surface">#151929</color>
+    <color name="surfaceVar">#1D2238</color>
+    <color name="stroke">#2A3050</color>
+    <color name="ink">#F2F4FF</color>
+    <color name="inkMuted">#9AA3C7</color>
+    <color name="primary">#8E74FF</color>
+    <color name="onPrimary">#12142B</color>
+</resources>

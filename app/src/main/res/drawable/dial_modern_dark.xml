@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:pathData="M4.00,50.00a46,46 0 1,0 92,0a46,46 0 1,0 -92,0"
+        android:strokeColor="#FF12142B"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M48.30,12.00a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M67.30,17.09a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M81.21,31.00a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M86.30,50.00a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M81.21,69.00a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M67.30,82.91a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M48.30,88.00a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M29.30,82.91a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M15.39,69.00a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M10.30,50.00a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M15.39,31.00a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+    <path
+        android:fillColor="#FF12142B"
+        android:pathData="M29.30,17.09a1.7,1.7 0 1,0 3.4,0a1.7,1.7 0 1,0 -3.4,0" />
+</vector>

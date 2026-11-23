@@ -1,0 +1,17 @@
+Vorki is a free, open-source collection of home-screen widgets that you can customise completely. No ads, no tracking, no internet access.
+
+<b>Widgets</b>
+• <b>Clock</b> – 12 styles, digital and analog, 8 fonts, and a photo clock with the time over your own picture.
+• <b>Calendar</b> – the date, the date with the day, or the whole month.
+• <b>Counters</b> – count down to a date, count days since something, or see how far through the year, month or week you are.
+• <b>Event list</b> – your next dates in one list.
+• <b>Notes</b> – a sticky note or a to-do list you can tick off from the home screen.
+• <b>Quote of the day</b> – a new short quote every day, or your own.
+• <b>Photo frame</b> – one photo, or a slideshow of up to 12.
+• <b>Quick Tap</b> – double-tap to lock the screen, open an app, toggle the flashlight or open search.
+• <b>App row</b> – up to six app shortcuts in one row.
+• <b>Fun</b> – dice, coin flip, magic 8-ball, rock-paper-scissors, random number, or pick from your own list.
+
+Pick a picture from your gallery as the background of any widget, choose one of five app colour palettes, about twenty colours plus a custom colour picker, and eight fonts. Every widget has a live preview, and widgets you already placed can be edited from inside the app.
+
+Parts of the code were written with AI assistance. Vorki is based on "Transparent Widget" by Vishnu (EasWareApps) and is licensed under the GNU GPL v3.

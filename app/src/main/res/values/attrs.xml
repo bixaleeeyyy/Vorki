@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="vkBg" format="color" />
+    <attr name="vkBgTop" format="color" />
+    <attr name="vkSurface" format="color" />
+    <attr name="vkSurfaceVar" format="color" />
+    <attr name="vkStroke" format="color" />
+    <attr name="vkInk" format="color" />
+    <attr name="vkInkMuted" format="color" />
+    <attr name="vkPrimary" format="color" />
+    <attr name="vkOnPrimary" format="color" />
+    <attr name="vkOnCard" format="color" />
+    <attr name="vkG1a" format="color" />
+    <attr name="vkG1b" format="color" />
+    <attr name="vkG2a" format="color" />
+    <attr name="vkG2b" format="color" />
+    <attr name="vkG3a" format="color" />
+    <attr name="vkG3b" format="color" />
+    <attr name="vkG4a" format="color" />
+    <attr name="vkG4b" format="color" />
+</resources>

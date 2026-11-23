@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Vorki" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">?attr/vkPrimary</item>
+        <item name="colorOnPrimary">?attr/vkOnPrimary</item>
+        <item name="colorSecondary">?attr/vkPrimary</item>
+        <item name="colorSurface">?attr/vkSurface</item>
+        <item name="colorOnSurface">?attr/vkInk</item>
+        <item name="colorSurfaceVariant">?attr/vkSurfaceVar</item>
+        <item name="colorOnSurfaceVariant">?attr/vkInkMuted</item>
+        <item name="colorOutline">?attr/vkStroke</item>
+        <item name="colorOutlineVariant">?attr/vkStroke</item>
+        <item name="colorSecondaryContainer">?attr/vkSurfaceVar</item>
+        <item name="colorOnSecondaryContainer">?attr/vkInk</item>
+        <item name="colorSurfaceContainerLowest">?attr/vkSurface</item>
+        <item name="colorSurfaceContainerLow">?attr/vkSurface</item>
+        <item name="colorSurfaceContainer">?attr/vkSurface</item>
+        <item name="colorSurfaceContainerHigh">?attr/vkSurface</item>
+        <item name="colorSurfaceContainerHighest">?attr/vkSurfaceVar</item>
+        <item name="android:windowBackground">?attr/vkBg</item>
+        <item name="android:colorBackground">?attr/vkBg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="Theme.Vorki.Aurora" parent="Theme.Vorki">
+        <item name="vkBg">#EFF9F7</item>
+        <item name="vkBgTop">#FFFFFF</item>
+        <item name="vkSurface">#FFFFFF</item>
+        <item name="vkSurfaceVar">#E2F2EF</item>
+        <item name="vkStroke">#CBE5E0</item>
+        <item name="vkInk">#0B2A2A</item>
+        <item name="vkInkMuted">#4B6E6D</item>
+        <item name="vkPrimary">#0E9F88</item>
+        <item name="vkOnPrimary">#FFFFFF</item>
+        <item name="vkOnCard">#FFFFFF</item>
+        <item name="vkG1a">#14B8A6</item>
+        <item name="vkG1b">#22D3EE</item>
+        <item name="vkG2a">#8B5CF6</item>
+        <item name="vkG2b">#38BDF8</item>
+        <item name="vkG3a">#10B981</item>
+        <item name="vkG3b">#14B8A6</item>
+        <item name="vkG4a">#6366F1</item>
+        <item name="vkG4b">#8B5CF6</item>
+    </style>
+    <style name="Theme.Vorki.Sunset" parent="Theme.Vorki">
+        <item name="vkBg">#FFF6F0</item>
+        <item name="vkBgTop">#FFFFFF</item>
+        <item name="vkSurface">#FFFFFF</item>
+        <item name="vkSurfaceVar">#FFE9DC</item>
+        <item name="vkStroke">#F5D3C0</item>
+        <item name="vkInk">#2B140A</item>
+        <item name="vkInkMuted">#8A5A45</item>
+        <item name="vkPrimary">#E8502B</item>
+        <item name="vkOnPrimary">#FFFFFF</item>
+        <item name="vkOnCard">#FFFFFF</item>
+        <item name="vkG1a">#FF7A59</item>
+        <item name="vkG1b">#FFB020</item>
+        <item name="vkG2a">#FF5C8A</item>
+        <item name="vkG2b">#FF7A59</item>
+        <item name="vkG3a">#F59E0B</item>
+        <item name="vkG3b">#EF4444</item>
+        <item name="vkG4a">#FB7185</item>
+        <item name="vkG4b">#F59E0B</item>
+    </style>
+    <style name="Theme.Vorki.Mono" parent="Theme.Vorki">
+        <item name="vkBg">#F5F5F5</item>
+        <item name="vkBgTop">#FFFFFF</item>
+        <item name="vkSurface">#FFFFFF</item>
+        <item name="vkSurfaceVar">#EBEBEB</item>
+        <item name="vkStroke">#D6D6D6</item>
+        <item name="vkInk">#0A0A0A</item>
+        <item name="vkInkMuted">#6A6A6A</item>
+        <item name="vkPrimary">#5E7F00</item>
+        <item name="vkOnPrimary">#FFFFFF</item>
+        <item name="vkOnCard">#0A0A0A</item>
+        <item name="vkG1a">#C6F135</item>
+        <item name="vkG1b">#9BE015</item>
+        <item name="vkG2a">#E5E5E5</item>
+        <item name="vkG2b">#BDBDBD</item>
+        <item name="vkG3a">#FFFFFF</item>
+        <item name="vkG3b">#D0D0D0</item>
+        <item name="vkG4a">#9BE015</item>
+        <item name="vkG4b">#5BC000</item>
+    </style>
+    <style name="Theme.Vorki.Ocean" parent="Theme.Vorki">
+        <item name="vkBg">#EEF5FF</item>
+        <item name="vkBgTop">#FFFFFF</item>
+        <item name="vkSurface">#FFFFFF</item>
+        <item name="vkSurfaceVar">#E0ECFF</item>
+        <item name="vkStroke">#C8DBF7</item>
+        <item name="vkInk">#0A1B33</item>
+        <item name="vkInkMuted">#4A6590</item>
+        <item name="vkPrimary">#1F6FDB</item>
+        <item name="vkOnPrimary">#FFFFFF</item>
+        <item name="vkOnCard">#FFFFFF</item>
+        <item name="vkG1a">#2563EB</item>
+        <item name="vkG1b">#38BDF8</item>
+        <item name="vkG2a">#0EA5E9</item>
+        <item name="vkG2b">#22D3EE</item>
+        <item name="vkG3a">#4F46E5</item>
+        <item name="vkG3b">#38BDF8</item>
+        <item name="vkG4a">#1D4ED8</item>
+        <item name="vkG4b">#6366F1</item>
+    </style>
+    <style name="Theme.Vorki.Rose" parent="Theme.Vorki">
+        <item name="vkBg">#FFF1F7</item>
+        <item name="vkBgTop">#FFFFFF</item>
+        <item name="vkSurface">#FFFFFF</item>
+        <item name="vkSurfaceVar">#FFE0EE</item>
+        <item name="vkStroke">#F5C6DB</item>
+        <item name="vkInk">#2B0F20</item>
+        <item name="vkInkMuted">#8F5876</item>
+        <item name="vkPrimary">#E0357C</item>
+        <item name="vkOnPrimary">#FFFFFF</item>
+        <item name="vkOnCard">#FFFFFF</item>
+        <item name="vkG1a">#FF5C9E</item>
+        <item name="vkG1b">#FF8A5C</item>
+        <item name="vkG2a">#D946EF</item>
+        <item name="vkG2b">#FF5C9E</item>
+        <item name="vkG3a">#F43F5E</item>
+        <item name="vkG3b">#FB923C</item>
+        <item name="vkG4a">#A855F7</item>
+        <item name="vkG4b">#F472B6</item>
+    </style>
+    <style name="Theme.Vorki.Tap" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

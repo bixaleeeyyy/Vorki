@@ -1,0 +1,400 @@
+<resources>
+    <string name="app_name">Vorki</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="settings">Settings</string>
+    <string name="done">Done</string>
+    <string name="live_preview">Live preview</string>
+    <string name="add_to_home">Add to home screen</string>
+    <string name="apply_to_placed">Update widgets already on my home screen</string>
+    <string name="applied_to_n">Updated %1$d widget(s)</string>
+    <string name="pin_not_supported">Your launcher can\'t add widgets from here. Long-press the home screen, tap Widgets and look for Vorki.</string>
+    <string name="hint_reconfigure">You are changing this one widget. Changes are saved automatically.</string>
+    <string name="colours">Colours</string>
+    <string name="text_colour">Text colour</string>
+    <string name="highlight_colour">Highlight colour</string>
+    <string name="number_colour">Number colour</string>
+    <string name="background_colour">Background colour</string>
+    <string name="background_opacity">Background opacity</string>
+    <string name="text_size">Text size</string>
+    <string name="look">Look</string>
+    <string name="size_and_layout">Size and layout</string>
+
+    <!-- Main screen -->
+    <string name="main_subtitle">Widgets that look the way you want.</string>
+    <string name="picture_makes_visible">Background picture (makes it visible)</string>
+    <string name="main_tip">Tip: customise a widget here, then tap “Add to home screen”. Widgets you already placed are listed at the bottom of each widget screen, with an Edit button.</string>
+
+    <!-- App settings -->
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="about">About</string>
+    <string name="about_version">Vorki %1$s</string>
+    <string name="about_text">Free and open-source software under the GNU GPL v3. No ads, no tracking and no internet access. Parts of the code were written with AI assistance. Based on “Transparent Widget” by Vishnu (EasWareApps).</string>
+    <string name="about_source">https://gitlab.com/easwareapps/TransparentWidget</string>
+
+    <!-- Transparent widget -->
+    <string name="transparent_name">Quick Tap</string>
+    <string name="transparent_sub">Double-tap to lock, open an app and more</string>
+    <string name="transparent_desc">A widget you can hide. Double-tap it to run an action.</string>
+    <string name="transparent_hint">These settings are used for new Quick Tap widgets. Add one and double-tap it to try.</string>
+    <string name="transparent_note">Quick Tap is invisible by default. Keep the outline on while you place it, then switch it off to hide it. Choose a background picture to make it visible.</string>
+    <string name="widget_double_tap">double-tap</string>
+    <string name="on_double_tap">What should a double-tap do?</string>
+    <string name="act_nothing">Do nothing</string>
+    <string name="act_lock">Lock the screen</string>
+    <string name="act_app">Open an app</string>
+    <string name="act_flash">Toggle the flashlight</string>
+    <string name="act_search">Open search</string>
+    <string name="app_to_open">App to open</string>
+    <string name="tap_to_choose">Tap to choose</string>
+    <string name="choose_app">Choose an app</string>
+    <string name="search_apps">Search apps</string>
+    <string name="tap_speed">Double-tap speed</string>
+    <string name="show_outline">Show a dotted outline</string>
+    <string name="outline_colour">Outline colour</string>
+    <string name="admin_explanation">Vorki needs this permission only to lock the screen. It cannot do anything else.</string>
+    <string name="flash_not_available">The flashlight is not available on this phone.</string>
+    <string name="no_app_chosen">No app chosen yet. Open Vorki and pick one.</string>
+    <string name="app_not_found">That app could not be opened.</string>
+    <string name="search_not_available">Search is not available on this phone.</string>
+
+    <!-- Calendar widget -->
+    <string name="calendar_name">Calendar</string>
+    <string name="calendar_sub">Date, day, month or the whole month</string>
+    <string name="calendar_desc">Today\'s date, or the whole month.</string>
+    <string name="calendar_hint">These settings are used for new Calendar widgets.</string>
+    <string name="cal_style">Style</string>
+    <string name="style_date">Date</string>
+    <string name="style_full">Date + day</string>
+    <string name="style_month">Month</string>
+    <string name="week_starts">Week starts on</string>
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+
+    <!-- Countdown widget -->
+    <string name="countdown_desc">Counts down to a date you choose.</string>
+    <string name="countdown_hint">These settings are used for new Countdown widgets.</string>
+    <string name="cd_default_title">Countdown</string>
+    <string name="cd_title_hint">Title</string>
+    <string name="cd_when">When</string>
+    <string name="cd_date">Date</string>
+    <string name="cd_time">Time</string>
+    <string name="cd_time_note">Shows days, then hours on the last day, then minutes. Midnight is the default time.</string>
+    <string name="cd_when_finished">When it finishes</string>
+    <string name="cd_finish_look">The widget</string>
+    <string name="finish_show">Shows how long ago</string>
+    <string name="finish_hide">Goes blank</string>
+    <string name="cd_notify">Send me a notification</string>
+    <string name="cd_notify_note">The notification can arrive a few minutes late because Android saves battery.</string>
+    <string name="cd_done">Done</string>
+    <string name="cd_finished_today">finished today</string>
+    <string name="cd_notification_text">It\'s time!</string>
+    <string name="channel_name">Countdown alerts</string>
+    <string name="notification_denied">Notifications are turned off for Vorki in Android settings.</string>
+
+    <plurals name="days_left">
+        <item quantity="one">day left</item>
+        <item quantity="other">days left</item>
+    </plurals>
+    <plurals name="hours_left">
+        <item quantity="one">hour left</item>
+        <item quantity="other">hours left</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="one">minute left</item>
+        <item quantity="other">minutes left</item>
+    </plurals>
+    <plurals name="finished_days_ago">
+        <item quantity="one">finished %d day ago</item>
+        <item quantity="other">finished %d days ago</item>
+    </plurals>
+
+    <!-- Common additions -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="edit">Edit</string>
+    <string name="clear">Clear</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="your_widgets">Your widgets on the home screen</string>
+    <string name="placed_widget_n">Widget %1$d</string>
+    <string name="preview_failed">The preview could not be drawn: %1$s</string>
+    <string name="background">Background</string>
+    <string name="background_picture">Background picture</string>
+    <string name="picture_none">None - tap to choose from your gallery</string>
+    <string name="picture_chosen">Chosen - tap to change</string>
+    <string name="picture_remove">Remove the picture</string>
+    <string name="picture_remove_sub">Go back to the plain colour</string>
+    <string name="picture_dim">Darken the picture</string>
+    <string name="importing_pictures">Getting your picture ready…</string>
+    <string name="picture_failed">That picture could not be used.</string>
+    <string name="custom_colour">Custom colour</string>
+    <string name="picker_hue">Colour</string>
+    <string name="picker_saturation">Strength</string>
+    <string name="picker_brightness">Brightness</string>
+    <string name="font">Font</string>
+    <string name="font_default">Default</string>
+    <string name="font_light">Light</string>
+    <string name="font_medium">Medium</string>
+    <string name="font_condensed">Condensed</string>
+    <string name="font_serif">Serif</string>
+    <string name="font_mono">Typewriter</string>
+    <string name="font_handwriting">Handwriting</string>
+    <string name="font_casual">Casual</string>
+    <string name="palette">App colours</string>
+    <string name="palette_aurora">Aurora</string>
+    <string name="palette_sunset">Sunset</string>
+    <string name="palette_mono">Mono</string>
+    <string name="palette_ocean">Ocean</string>
+    <string name="palette_rose">Rose</string>
+    <string name="cat_time">Time</string>
+    <string name="cat_counters">Counters</string>
+    <string name="cat_notes">Notes</string>
+    <string name="cat_photos">Photos</string>
+    <string name="cat_shortcuts">Shortcuts</string>
+    <string name="cat_fun">Fun</string>
+
+    <!-- Clock -->
+    <string name="clock_name">Clock</string>
+    <string name="clock_sub">12 styles, digital and analog</string>
+    <string name="clock_desc">A clock in the style you pick.</string>
+    <string name="clock_hint">These settings are used for new Clock widgets.</string>
+    <string name="clock_style">Clock style</string>
+    <string name="clock_d0">Big time</string>
+    <string name="clock_d1">Big time + date</string>
+    <string name="clock_d2">Stacked hours and minutes</string>
+    <string name="clock_d3">Compact with small AM/PM</string>
+    <string name="clock_d4">Date first</string>
+    <string name="clock_d5">Two time zones</string>
+    <string name="clock_d6">Thin one-line</string>
+    <string name="clock_d7">Photo clock (time over a picture)</string>
+    <string name="clock_a0">Analog - classic</string>
+    <string name="clock_a1">Analog - minimal</string>
+    <string name="clock_a2">Analog - modern</string>
+    <string name="clock_a3">Analog + date</string>
+    <string name="clock_position">Where is the time?</string>
+    <string name="pos_top">Top</string>
+    <string name="pos_middle">Middle</string>
+    <string name="pos_bottom">Bottom</string>
+    <string name="pos_left">Left</string>
+    <string name="clock_photo_note">Choose a background picture below - the time is written on top of it.</string>
+    <string name="picture_clock">Background picture (the photo behind the time)</string>
+    <string name="clock_second_zone">Second time zone</string>
+    <string name="clock_local">Local</string>
+    <string name="clock_hours">Hours</string>
+    <string name="hours_phone">Phone</string>
+    <string name="hours_12">12 h</string>
+    <string name="hours_24">24 h</string>
+    <string name="clock_face">Clock face</string>
+    <string name="face_light">Light</string>
+    <string name="face_dark">Dark</string>
+
+    <!-- Counters -->
+    <string name="counters_name">Counters</string>
+    <string name="counters_sub">Countdown, days since, year progress</string>
+    <string name="counter_type">What to count</string>
+    <string name="type_countdown">Countdown</string>
+    <string name="type_since">Days since</string>
+    <string name="type_progress">Progress</string>
+    <string name="since_default_title">Days since</string>
+    <string name="since_section">Since when</string>
+    <string name="since_date">Start date</string>
+    <string name="since_reset">Reset to today</string>
+    <string name="since_reset_sub">Start counting again from today</string>
+    <string name="progress_default_title">Progress</string>
+    <string name="progress_section">What to measure</string>
+    <string name="progress_scope">Progress of</string>
+    <string name="scope_year">Year</string>
+    <string name="scope_month">Month</string>
+    <string name="scope_week">Week</string>
+    <string name="progress_of_year">of %1$d done</string>
+    <string name="progress_of_month">of %1$s done</string>
+    <string name="progress_of_week">of this week done</string>
+
+    <!-- Events -->
+    <string name="events_name">Event list</string>
+    <string name="events_sub">Your next dates in one list</string>
+    <string name="events_desc">Up to six upcoming events with days left.</string>
+    <string name="events_hint">These settings are used for new Event list widgets.</string>
+    <string name="events_title_hint">Title (optional)</string>
+    <string name="events_default_title">Coming up</string>
+    <string name="events_list">Events</string>
+    <string name="event_slot">Event</string>
+    <string name="event_empty_slot">Empty - tap to add</string>
+    <string name="event_name_hint">Name of the event</string>
+    <string name="events_hide_past">Hide events that have passed</string>
+    <string name="events_empty">No events yet</string>
+    <string name="ev_today">Today</string>
+
+    <!-- Notes -->
+    <string name="notes_name">Notes</string>
+    <string name="notes_sub">Sticky note or to-do list</string>
+    <string name="notes_desc">A sticky note or a to-do list.</string>
+    <string name="notes_hint">These settings are used for new Notes widgets.</string>
+    <string name="note_type">Type</string>
+    <string name="type_sticky">Sticky note</string>
+    <string name="type_todo">To-do list</string>
+    <string name="note_title">Title (optional)</string>
+    <string name="note_text">Your note</string>
+    <string name="todo_items">Items - one per line</string>
+    <string name="todo_note">Tap an item on the widget to tick it off. Up to 8 items are shown.</string>
+    <string name="note_placeholder">Tap to write a note</string>
+    <string name="todo_more">+%1$d more</string>
+    <string name="note_paper">Paper</string>
+    <string name="paper_style">Paper style</string>
+    <string name="paper_yellow">Yellow</string>
+    <string name="paper_mint">Mint</string>
+    <string name="paper_pink">Pink</string>
+    <string name="paper_sky">Sky</string>
+    <string name="paper_lavender">Lavender</string>
+    <string name="paper_dark">Dark</string>
+    <string name="paper_lined">Paper with lines</string>
+    <string name="paper_grid">Grid paper</string>
+
+    <!-- Quote -->
+    <string name="quote_name">Quote of the day</string>
+    <string name="quote_sub">A new line every day</string>
+    <string name="quote_desc">A new short quote every day.</string>
+    <string name="quote_hint">These settings are used for new Quote widgets.</string>
+    <string name="quote_source">Quotes from</string>
+    <string name="quote_builtin">Built-in</string>
+    <string name="quote_mine">Mine</string>
+    <string name="quote_both">Both</string>
+    <string name="quote_own">Your own quotes - one per line</string>
+    <string name="quote_own_note">Write a quote, then a | and the author if you like. Example: Keep going | Me</string>
+    <string name="quote_show_author">Show the author</string>
+    <string name="quote_fallback">Add your own quotes in Vorki.</string>
+
+    <!-- Photo frame -->
+    <string name="photo_name">Photo frame</string>
+    <string name="photo_sub">One photo or a slideshow</string>
+    <string name="photo_desc">Your photo, or a slideshow of up to 12.</string>
+    <string name="photo_hint">Open Vorki to choose a photo</string>
+    <string name="photo_hint_screen">These settings are used for new Photo frame widgets. Pick one photo, or up to 12 for a slideshow.</string>
+    <string name="photo_pictures">Photos</string>
+    <string name="photo_add">Add photos</string>
+    <string name="photo_clear">Remove all photos</string>
+    <string name="photo_clear_sub">Start again</string>
+    <string name="photo_note">One photo stays still. With more than one, the widget changes photo on its own, and when you tap it.</string>
+    <string name="photo_change_every">Change photo</string>
+    <string name="every_hour">Every hour</string>
+    <string name="every_6_hours">Every 6 hours</string>
+    <string name="every_day">Every day</string>
+    <string name="tap_only">Only when I tap</string>
+    <string name="photo_shape">Shape</string>
+    <string name="shape_rounded">Rounded</string>
+    <string name="shape_square">Square</string>
+    <string name="shape_oval">Oval</string>
+    <string name="photo_border">Border</string>
+    <string name="photo_border_colour">Border colour</string>
+
+    <!-- App row -->
+    <string name="apps_name">App row</string>
+    <string name="apps_sub">Your favourite apps in one row</string>
+    <string name="apps_desc">Up to six app shortcuts.</string>
+    <string name="apps_hint">These settings are used for new App row widgets.</string>
+    <string name="apps_list">Apps</string>
+    <string name="apps_slot">App</string>
+    <string name="apps_note">Tap a row to choose an app. Long-press a chosen app to remove it.</string>
+    <string name="apps_labels">Show the app names</string>
+    <string name="apps_empty">Choose apps</string>
+
+    <!-- Fun -->
+    <string name="fun_name">Fun</string>
+    <string name="fun_sub">Dice, coin, 8-ball and more</string>
+    <string name="fun_desc">Tap to roll, flip or pick.</string>
+    <string name="fun_hint">These settings are used for new Fun widgets.</string>
+    <string name="fun_type">What is it?</string>
+    <string name="fun_dice">Dice</string>
+    <string name="fun_coin">Coin flip</string>
+    <string name="fun_ball">Magic 8-ball</string>
+    <string name="fun_rps">Rock paper scissors</string>
+    <string name="fun_number">Random number</string>
+    <string name="fun_picker">Pick from my list</string>
+    <string name="fun_tap_hint">tap to play</string>
+    <string name="dice_count">How many dice?</string>
+    <string name="one_die">1</string>
+    <string name="two_dice">2</string>
+    <string name="three_dice">3</string>
+    <string name="coin_heads">Heads</string>
+    <string name="coin_tails">Tails</string>
+    <string name="rps_rock">Rock</string>
+    <string name="rps_paper">Paper</string>
+    <string name="rps_scissors">Scissors</string>
+    <string name="number_min">Smallest number</string>
+    <string name="number_max">Biggest number</string>
+    <string name="picker_list">Your list - one choice per line</string>
+    <string name="picker_note">Each tap picks one line at random.</string>
+    <string name="picker_empty">Add some choices first</string>
+
+    <string-array name="quotes">
+        <item>Small steps every day.</item>
+        <item>Well begun is half done. | Aristotle</item>
+        <item>The journey of a thousand miles begins with a single step. | Lao Tzu</item>
+        <item>Fall seven times, stand up eight. | Japanese proverb</item>
+        <item>Energy and persistence conquer all things. | Benjamin Franklin</item>
+        <item>Waste no more time arguing what a good man should be. Be one. | Marcus Aurelius</item>
+        <item>He who has a why to live can bear almost any how. | Friedrich Nietzsche</item>
+        <item>We are what we repeatedly do. | Will Durant</item>
+        <item>Happiness depends upon ourselves. | Aristotle</item>
+        <item>What we think, we become. | Buddha</item>
+        <item>The best way out is always through. | Robert Frost</item>
+        <item>Rome wasn\'t built in a day.</item>
+        <item>A smooth sea never made a skilled sailor.</item>
+        <item>No rain, no flowers.</item>
+        <item>Slow progress is still progress.</item>
+        <item>One thing at a time.</item>
+        <item>Today is a good day to begin.</item>
+        <item>Dream big, start small.</item>
+        <item>Do the next right thing.</item>
+        <item>Every day is a fresh start.</item>
+        <item>Stars can\'t shine without darkness.</item>
+        <item>Keep going.</item>
+        <item>Be gentle with yourself.</item>
+        <item>Knowing yourself is the beginning of all wisdom. | Aristotle</item>
+        <item>Make today count.</item>
+    </string-array>
+
+    <string-array name="ball_answers">
+        <item>It is certain.</item>
+        <item>Without a doubt.</item>
+        <item>Yes, definitely.</item>
+        <item>You may rely on it.</item>
+        <item>As I see it, yes.</item>
+        <item>Most likely.</item>
+        <item>Looks good.</item>
+        <item>Signs point to yes.</item>
+        <item>Reply hazy, try again.</item>
+        <item>Ask again later.</item>
+        <item>Better not tell you now.</item>
+        <item>Cannot predict now.</item>
+        <item>Concentrate and ask again.</item>
+        <item>Don\'t count on it.</item>
+        <item>My reply is no.</item>
+        <item>My sources say no.</item>
+        <item>Outlook not so good.</item>
+        <item>Very doubtful.</item>
+        <item>Go for it!</item>
+        <item>Not today.</item>
+    </string-array>
+
+    <plurals name="days_since">
+        <item quantity="one">day since</item>
+        <item quantity="other">days since</item>
+    </plurals>
+    <plurals name="ev_in_days">
+        <item quantity="one">in %d day</item>
+        <item quantity="other">in %d days</item>
+    </plurals>
+    <plurals name="ev_days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="one">%d photo</item>
+        <item quantity="other">%d photos</item>
+    </plurals>
+</resources>
