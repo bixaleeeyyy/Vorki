@@ -1,0 +1,3 @@
+First public release of Vorki.
+Ten customisable home-screen widgets: Quick Tap, calendar, counters, clock, notes, events, quote, photo frame, app row and fun widgets.
+Five colour themes, eight fonts and your own background picture on every widget.
